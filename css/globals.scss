@@ -1,0 +1,342 @@
+// @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+// @font-face {
+//   font-family: "Gilroy";
+//   src: url("./../assets/font/Gilroy-ExtraBold.otf") format("otf");
+//   font-weight: 900;
+//   font-style: normal;
+// }
+// @font-face {
+//   font-family: "Gilroy";
+//   src: url("./../assets/font/Gilroy-Light.otf") format("otf");
+//   font-weight: 400;
+//   font-style: normal;
+// }
+// @font-face {
+//   font-family: "LemonBrownies";
+//   src: url("./../assets/font/LemonBrownies.otf") format("otf");
+//   font-weight: 500;
+//   font-style: normal;
+// }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-HeavyItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy-RegularItalic';
+  src: url('./../assets/font/Gilroy-RegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-UltraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./../assets/font/Gilroy-UltraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  // scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  // overflow-x: hidden;
+  font-family: "Gilroy" !important;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  background: #f9f9f9;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  overflow-x: hidden !important;
+}
+
+button,
+a {
+  cursor: pointer;
+  outline: none !important;
+}
+.filterBlure {
+  // backdrop-filter: ;
+  filter: blur(55.5px);
+  background: #4283ff;
+  border-radius: 86px;
+  opacity: 1;
+}
+.filterBlures {
+  filter: blur(55.5px);
+  background: #6055ad;
+  border-radius: 86px;
+}
+
+// Home :: Quick Intro About Wheez
+// .panel{
+//   height: 577px;
+//   min-height: 577px;
+// }
+.aboutWheezBg {
+  width: 100%;
+  background: linear-gradient(170.88deg, #363cd4 29.01%, #4283ff 93.08%);
+  // display: flex;
+  gap: 20px;
+}
+
+.getStartBtn {
+  background: linear-gradient(180deg, #6d61c2 0%, #534998 100%);
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+// tabs//
+.css-1f3fpqq-MuiButtonBase-root-MuiTab-root {
+  -webkit-align-items: start !important;
+  align-items: start !important;
+  border-radius: 5px !important;
+  margin: 20px 0px 0px 0px !important;
+  color: #ffff !important;
+}
+.css-qfzfow-MuiTabs-indicator {
+  display: none;
+}
+.css-1d68lol-MuiTabs-root {
+  border: none !important;
+}
+.css-1f3fpqq-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  box-shadow: 10px 5px 0px -1px #6055ad;
+  border-radius: 5px;
+  color: #fff;
+  margin: 10px 0px 0px 0px;
+  background-color: #414147;
+}
+.css-1f3fpqq-MuiButtonBase-root-MuiTab-root.Mui-selected:nth-last-child(1) {
+  margin-bottom: 30px !important;
+}
+//filter cmp confused
+.filter-blur {
+  // filter: blur(157px);
+  // position: relative;
+  // z-index: 2;
+  // opacity: 0.3;
+  // background: rgba(255, 253, 253, 0.178);
+}
+.css-13ml415-MuiAvatarGroup-root .MuiAvatar-root {
+  background-color: #fff !important;
+  border-radius: 10px;
+  border: 2px solid #fff !important;
+  height: 34px;
+  width: 34px;
+  font-size: 15px;
+  color: #52498e;
+  font-weight: 900;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .static-txt {
+  color: #fff;
+  font-size: 112px;
+  font-weight: 900;
+  line-height: 131px;
+}
+.wrapper .dynamic-txts {
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-txts1 {
+  color: #934ffd;
+  font-size: 112px;
+  line-height: 131px;
+  font-weight: 900;
+}
+.dynamic-txts2 {
+  color: #407BFF;
+  font-size: 112px;
+  line-height: 131px;
+  font-weight: 900;
+}
+.dynamic-txts li {
+  list-style: none;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(3) infinite;
+}
+@keyframes slide {
+  100% {
+    top: -372px;
+  }
+}
+.dynamic-txts li span {
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  // background: #343F4F;
+  // border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
+}
