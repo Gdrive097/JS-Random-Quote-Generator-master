@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Inner Page | Company</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Meta descriptions may be included in search results to concisely summarize page content.">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="overlay"></div>
+        <div class="search-overlay"></div>
+
+        <!-- Start-Header -->
+        <header class="header">
+            <button type="button" class="menu-btn" title="Menu"><img src="./images/menu-icon.svg" alt="menu"></button>
+            <button type="button" class="search-btn">
+                <img src="./images/search-icon.svg" alt="search">
+                <p>Search</p>
+            </button>
+            <a href="#">
+                <img src="./images/logo.svg" alt="logo" class="logo">
+                <img src="./images/logo-mobile.svg" alt="logo" class="logo-mobile">
+            </a>
+
+            <div class="dropdown message-dropdown">
+                <button class="message-btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" title="View Messages">
+                    <img src="./images/message-icon.svg" alt="message">
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">item 1</a></li>
+                    <li><a class="dropdown-item" href="#">item 2</a></li>
+                    <li><a class="dropdown-item" href="#">item 3</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown notification-dropdown">
+                <button class="notification-btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" title="View Notifications">
+                    <img src="./images/notification-icon.svg" alt="notification">
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                    <h6>Notifications</h6>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <div class="user-details">
+                                <img src="./images/robert-fox.png" alt="robert-fox">
+                                <div>
+                                    <h5 class="text-truncate">Robert Fox sent you friend request</h5>
+                                    <span>January 05 2022 12:11 PM</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <div class="user-details">
+                                <img src="./images/esther-howard.png" alt="esther-howard">
+                                <div>
+                                    <h5 class="text-truncate">Esther Howard accepted your friend</h5>
+                                    <span>July 15 2021 04:05 PM</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <div class="user-details">
+                                <img src="./images/darrell-steward.png" alt="darrell-steward">
+                                <div>
+                                    <h5 class="text-truncate">Darrell Steward commented on you</h5>
+                                    <span>May 25 2021 10:14 AM</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <div class="user-details">
+                                <img src="./images/bessie-cooper.png" alt="bessie-cooper">
+                                <div>
+                                    <h5 class="text-truncate">Bessie Cooper started following you</h5>
+                                    <span>February 01 08:56 PM</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <div class="user-details">
+                                <img src="./images/jenny-wilson.png" alt="jenny">
+                                <div>
+                                    <h5 class="text-truncate">Jenny Wilson likes your post</h5>
+                                    <span>December 25 2020 06:12 PM</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <div class="dropdown-footer">
+                        <a href="#" class="btn-dark">VIEW ALL</a>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <button class="user-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                    title="View Profile">
+                    <img src="./images/john-smith-image.png" alt="john-image" class="user-img">
+                    <p>John Smith</p><img src="./images/profile-dropdown-icon.svg" alt="dropdown" class="dropdown-img">
+                </button>
+                <ul class="dropdown-menu user-dropdown dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">My Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Help</a></li>
+                    <li><a class="dropdown-item" href="./login.html">Logout</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="search-box">
+            <input type="search" class="form-control search-field" placeholder="Search" />
+        </div>
+        <!-- End-Header -->
+
+        <!-- Start-Sidebar -->
+        <nav class="navbar">
+            <ul class="nav flex-column">
+                <li>
+                    <a class="nav-link" href="./dashboard.html" title="Click to Dashboard">
+                        <img src="./images/dashboard-default-icon.svg" alt="dashboard" class="default-icon">
+                        <img src="./images/dashboard-active-icon.svg" alt="dashboard" class="active-icon">
+                        Dashboard</a>
+                </li>
+                <li class="active">
+                    <a class="nav-link" href="./innerpage.html" title="Click to Transactions">
+                        <img src="./images/transactions-default-icon.svg" alt="transactions" class="default-icon">
+                        <img src="./images/transactions-active-icon.svg" alt="transactions" class="active-icon">
+                        Transactions</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#" title="Click to Statistics">
+                        <img src="./images/statistics-default-icon.svg" alt="statistics" class="default-icon">
+                        <img src="./images/statistics-active-icon.svg" alt="statistics" class="active-icon">
+                        Statistics</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#" title="Click to Product">
+                        <img src="./images/product-default-icon.svg" alt="product" class="default-icon">
+                        <img src="./images/product-active-icon.svg" alt="product" class="active-icon">
+                        Product</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#" title="Click to Offers">
+                        <img src="./images/offers-default-icon.svg" alt="offers" class="default-icon">
+                        <img src="./images/offers-active-icon.svg" alt="offers" class="active-icon">
+                        Offers</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#" title="Click to Settings">
+                        <img src="./images/settings-default-icon.svg" alt="setting" class="default-icon">
+                        <img src="./images/settings-active-icon.svg" alt="setting" class="active-icon">
+                        Settings</a>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- End-Sidebar -->
+
+        <!-- Start-Inner-Page-Content -->
+        <div class="main-content">
+            <!-- Start-Table -->
+            <div class="card innerpage-table">
+                <div class="card-title">
+                    <h6>Active Users</h6>
+                    <div class="dropdown">
+                        <button class="more-btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" title="View Options">
+                            <img src="./images/table-dropdown.svg" alt="table-dropdown">
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">item 1</a></li>
+                            <li><a class="dropdown-item" href="#">item 2</a></li>
+                            <li><a class="dropdown-item" href="#">item 3</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Availabale Data</th>
+                                <th scope="col">Downloads</th>
+                                <th scope="col" class="text-center">Status</th>
+                                <th scope="col" class="text-center">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>John Smith</th>
+                                <td>John.smith@company.com</td>
+                                <td>450 MB</td>
+                                <td>55%</td>
+                                <td class="text-center"><span class="success">Active</span></td>
+                                <td>
+                                    <div class="dropdown text-center">
+                                        <button class="action-dropdown-btn dropdown-toggle" type="button"
+                                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"
+                                            title="View Options">
+                                            <img src="./images/action-vertical.svg" alt="action-dropdown">
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-end"
+                                            aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">item 3</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>David Bough</th>
+                                <td>david.bough@company.com</td>
+                                <td>457 MB</td>
+                                <td>65%</td>
+                                <td class="text-center"><span class="danger">Block</span></td>
+                                <td>
+                                    <div class="dropdown text-center">
+                                        <button class="action-dropdown-btn dropdown-toggle" type="button"
+                                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"
+                                            title="View Options">
+                                            <img src="./images/action-vertical.svg" alt="action-dropdown">
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-end"
+                                            aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">item 3</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Kevin Archer</th>
+                                <td>kevin.archer@gmail.com</td>
+                                <td>231 MB</td>
+                                <td>75%</td>
+                                <td class="text-center"><span class="success">Active</span></td>
+                                <td>
+                                    <div class="dropdown text-center">
+                                        <button class="action-dropdown-btn dropdown-toggle" type="button"
+                                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"
+                                            title="View Options">
+                                            <img src="./images/action-vertical.svg" alt="action-dropdown">
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-end"
+                                            aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">item 3</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Sara Ovens</th>
+                                <td>sara.ovens@company.com</td>
+                                <td>120 MB</td>
+                                <td>25%</td>
+                                <td class="text-center"><span class="warning">Reported</span></td>
+                                <td>
+                                    <div class="dropdown text-center">
+                                        <button class="action-dropdown-btn dropdown-toggle" type="button"
+                                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"
+                                            title="View Options">
+                                            <img src="./images/action-vertical.svg" alt="action-dropdown">
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-end"
+                                            aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">item 1</a></li>
+                                            <li><a class="dropdown-item" href="#">item 2</a></li>
+                                            <li><a class="dropdown-item" href="#">item 3</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Ziva Foakes</th>
+                                <td>ziva.foakes@gmail.com</td>
+                                <td>552 MB</td>
+                                <td>85%</td>
+                                <td class="text-center"><span class="danger">Block</span></td>
+                                <td>
+                                    <div class="dropdown text-center">
+                                        <button class="action-dropdown-btn dropdown-toggle" type="button"
+                                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"
+                                            title="View Options">
+                                            <img src="./images/action-vertical.svg" alt="action-dropdown">
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-end"
+                                            aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">Edit</a></li>
+                                            <li><a class="dropdown-item" href="#">Delete</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="table-pagination">
+                    <p>Rows per page: 5</p>
+                    <p>1-5 of 100</p>
+                    <div>
+                        <button type="button" class="previous disabled btn"><img src="./images/lessthan-arrow.svg"
+                                alt="lessthan-arrow"></button>
+                        <button type="button" class="btn next"><img src="./images/greaterthan-arrow.svg"
+                                alt="greaterthan-arrow"></button>
+                    </div>
+                </div>
+            </div>
+            <!-- End-Table -->
+
+            <div class="card custom-card">
+                <div class="card-title">
+                    <h6>
+                        Form Elements</h6>
+                </div>
+                <div class="form-floating mt-4">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                    <label for="floatingInput">Name</label>
+                </div>
+                <div class="form-floating">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option value="">Dropdown</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <label for="floatingSelect">Dropdown</label>
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
+                        style="min-height: 104px;"></textarea>
+                    <label for="floatingTextarea">Comments</label>
+                </div>
+                <h4 class="column-title">Two Column</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="First Name">
+                            <label for="floatingInput">First Name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Last Name">
+                            <label for="floatingInput">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                <option value="">Dropdown</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <label for="floatingSelect">Dropdown</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input class="form-control disabled" type="text" placeholder="Disabled" value="Hello World"
+                                disabled>
+                            <label for="floatingInput" disabled>Disabled</label>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="column-title">Three Column</h4>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="First Name">
+                            <label for="floatingInput">First Name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Last Name"
+                                value="Smith">
+                            <label for="floatingInput">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Name" value="Smith">
+                            <label for="floatingInput">Focus</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="form-floating">
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                <option value="">Dropdown</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <label for="floatingSelect">Dropdown</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="form-floating">
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                <option value="">Dropdown</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <label for="floatingSelect">Dropdown</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="form-floating">
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                <option value="">Dropdown</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <label for="floatingSelect">Dropdown</label>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="column-title">Four Column</h4>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="First Name">
+                            <label for="floatingInput">First Name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Last Name"
+                                value="Smith">
+                            <label for="floatingInput">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="form-floating ">
+                            <input type="text" class="form-control date" aria-describedby="basic-addon"
+                                placeholder="Datepicker" data-provide="datepicker" data-date-format="dd/mm/yyyy">
+                            <label>Date</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Name" value="Smith">
+                            <label for="floatingInput">Focus</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="form-floating">
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                <option value="">Dropdown</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <label for="floatingSelect">Dropdown</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="form-floating">
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                <option value="">Dropdown</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <label for="floatingSelect">Dropdown</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="form-floating">
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                <option value="">Dropdown</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <label for="floatingSelect">Dropdown</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="form-floating">
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                <option value="">Dropdown</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <label for="floatingSelect">Dropdown</label>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="column-title pb-0">Other Form Elements</h4>
+                <h6 class="other-title">File Upload</h6>
+                <div class="upload">
+                    <button type="button" class="btn upload-btn"><img src="./images/upload-icon.svg" alt="upload">
+                        Choose File</button>
+                    <p>No files selected</p>
+                    <input type="file" class="form-control upload-inner" id="formFile">
+                </div>
+                <h6 class="other-title">Checkbox</h6>
+                <div class="checkbox-group">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label checkbox-label" for="customCheck1"
+                            title="remember credentials">Option 1</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck2" checked>
+                        <label class="custom-control-label checkbox-label" for="customCheck2"
+                            title="remember credentials">Option 2</label>
+                    </div>
+                </div>
+                <h6 class="other-title">Radio Buttons</h6>
+                <div class="radio-group">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label radio-label" for="customRadioInline1">Option 1</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadioInline2" class="custom-control-input" checked>
+                        <label class="custom-control-label radio-label" for="customRadioInline2">Option 2</label>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button type="button" class="btn btn-primary">Primary</button>
+                    <button type="button" class="btn btn-secondary">Secondary</button>
+                </div>
+            </div>
+
+            <!-- Start-Tabs -->
+            <div class="card tab-card">
+                <div class="card-title"><h6>Tabs</h6></div>
+                <ul class="nav nav-tabs" id="pills-tab" role="tablist">
+                    <li class="nav-item tab-list" role="presentation">
+                        <button class="nav-link tab-btn active" id="pills-tab1" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">Option 1</button>
+                    </li>
+                    <li class="nav-item tab-list" role="presentation">
+                        <button class="nav-link tab-btn" id="pills-tab2" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Option 2</button>
+                    </li>
+                    <li class="nav-item tab-list" role="presentation">
+                        <button class="nav-link tab-btn" id="pills-tab3" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Option 3</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-tab1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a varius nulla. Proin accumsan
+                        nunc lacinia ipsum venenatis varius. Proin rutrum, diam id facilisis hendrerit, dui est
+                        malesuada risus, sed sollicitudin felis eros vitae libero. Integer in magna lectus. Vestibulum
+                        facilisis ultrices libero sed tincidunt. Nullam vitae mollis diam, eu posuere diam. Suspendisse
+                        potenti. Proin pellentesque egestas justo a tempor. Donec lorem sem, dictum at consequat et,
+                        maximus quis mauris. Mauris leo elit, scelerisque a lorem vitae, dignissim sodales dolor. In hac
+                        habitasse platea dictumst.</div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-tab2">Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a varius nulla. Proin accumsan nunc
+                        lacinia ipsum venenatis varius. Proin rutrum, diam id facilisis hendrerit, dui est malesuada
+                        risus, sed sollicitudin felis eros vitae libero. Integer in magna lectus. Vestibulum facilisis
+                        ultrices libero sed tincidunt. Nullam vitae mollis diam, eu posuere diam. Suspendisse potenti.
+                        Proin pellentesque egestas justo a tempor. Donec lorem sem, dictum at consequat et, maximus quis
+                        mauris. Mauris leo elit, scelerisque a lorem vitae, dignissim sodales dolor. In hac habitasse
+                        platea dictumst.</div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-tab3">Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a varius nulla. Proin accumsan nunc
+                        lacinia ipsum venenatis varius. Proin rutrum, diam id facilisis hendrerit, dui est malesuada
+                        risus, sed sollicitudin felis eros vitae libero. Integer in magna lectus. Vestibulum facilisis
+                        ultrices libero sed tincidunt. Nullam vitae mollis diam, eu posuere diam. Suspendisse potenti.
+                        Proin pellentesque egestas justo a tempor. Donec lorem sem, dictum at consequat et, maximus quis
+                        mauris. Mauris leo elit, scelerisque a lorem vitae, dignissim sodales dolor. In hac habitasse
+                        platea dictumst.</div>
+                </div>
+            </div>
+            <!-- End-Tabs -->
+
+        </div>
+        <!-- End-Inner-Page-Content -->
+
+    </div>
+
+    <!-- JavaScripts -->
+    <script src="js/main.js">
+        $(function () {
+            $('.datepicker').datepicker();
+        });
+    </script>
+</body>
+
+</html>
