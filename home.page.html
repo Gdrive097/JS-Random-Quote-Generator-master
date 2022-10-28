@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-input type="text" aria-placeholder="Enter Name to show in canvas" [(ngModel)]="textString"></ion-input>
+    <ion-button (click)="addText()">
+      Add
+    </ion-button>
+  </ion-toolbar>
+  <hr>
+</ion-header>
+<hr>
+<ion-toolbar>
+  <ion-label (click)="addFigure('triangle')">Triangle</ion-label>
+  <ion-icon name="triangle-outline">
+
+    <ion-button (click)="addFigure('triangle')">
+    </ion-button>
+  </ion-icon>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <ion-label (click)="addFigure('circle')">Circle</ion-label>
+  <ion-icon name="star-outline">
+
+    <ion-button (click)="addFigure('circle')">
+
+    </ion-button>
+  </ion-icon>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <ion-label (click)="addFigure('square')">Square</ion-label>
+  <ion-icon name="square-outline">
+    <ion-button (click)="addFigure('square')">
+
+    </ion-button>
+  </ion-icon>
+
+
+</ion-toolbar>
+<ion-toolbar>
+  <ion-label (click)="addFigure('rectangle')">Recatangle</ion-label>
+  <ion-icon name="tablet-landscape-outline">
+    <ion-button (click)="addFigure('rectangle')">
+    </ion-button>
+  </ion-icon>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <ion-label (click)="ExportToContent('json')">Json</ion-label>
+  <ion-icon name="logo-nodejs">
+    <ion-button (click)="ExportToContent('json')">
+    </ion-button>
+  </ion-icon>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <ion-label (click)="ExportToContent('svg')">SVG</ion-label>
+  <ion-icon name="aperture-outline">
+    <ion-button (click)="ExportToContent('svg')">
+
+    </ion-button>
+  </ion-icon>
+</ion-toolbar>
+
+<br />
+<ion-content>
+  <code>{{OutputContent}}</code>
+  <div class="canvas">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <router-outlet></router-outlet>
+</ion-content>
